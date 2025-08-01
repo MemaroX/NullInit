@@ -39,6 +39,15 @@ python nullinit.py --name <YourProjectName> --type <TemplateType>
 
 The true power of `NullInit` lies in its potential for customization. The script is designed to be easily extended with new, user-defined project templates to perfectly match any workflow.
 
+## Future Work
+
+`NullInit` is a living project. The following enhancements are planned to further increase its power and flexibility:
+
+-   **Interactive Mode:** An interactive CLI session that guides the user through the scaffolding process, allowing for fine-grained customization of the generated project.
+-   **Custom Template Sources:** The ability to add and use custom project templates from local directories or remote Git repositories.
+-   **Automatic Dependency Installation:** An option to automatically run `pip install`, `npm install`, or other package manager commands after scaffolding is complete.
+-   **Plugin System:** A more advanced system for extending `NullInit` with hooks and plugins for deeper integration into specific development workflows.
+
 ---
 
 **By Coding NullInit , Setting Headlines for bigger project**
